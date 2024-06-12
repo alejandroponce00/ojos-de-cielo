@@ -1,12 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 body{
+    .zeyada-regular {
+        font-family: "Zeyada", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      ;
 background: #d9a7c7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #d6d3d1, #f87171);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #d6d3d1, #f87171); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin: 20px;
-;
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
 }
 
