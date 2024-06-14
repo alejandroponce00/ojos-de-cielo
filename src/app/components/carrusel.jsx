@@ -7,11 +7,17 @@ import {
   } from "@/components/ui/carousel"
 import React from 'react'
 import Card from "./card";
+import Image from "next/image";
 
 function Carrusel (props) {
-  return (<div className="mx-80 my-10 bg-slate-600"><Carousel>
+  return (<div className="my-10 opacity-80"><Carousel>
   <CarouselContent>
-    <CarouselItem>{<Card direccion="/imagenes/tasas.webp" width="500px" height="200" />}</CarouselItem>
+    <CarouselItem><Image 
+    src='/imagenes/colibri.webp'
+    alt="foto"
+    width={1000}
+    height={760}
+    /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/colibri.webp" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/tasa-colibri.webp" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/libro.webp" width="500px" height="200" /></CarouselItem>

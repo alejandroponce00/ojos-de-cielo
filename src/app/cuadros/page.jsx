@@ -3,7 +3,7 @@ import Carrusel from '../components/carrusel'
 
 function Cuadros() {
   return (
-    <Carrusel />
+    <div><Carrusel /></div>
   )
 }
 

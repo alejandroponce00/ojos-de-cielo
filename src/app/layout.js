@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav";
+import { zeyada } from "@/ui/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={inter.className}><Nav />{children}</body>
+      <body className={`${zeyada.className} antialiased `}><Nav />{children}</body>
     </html>
   );
 }

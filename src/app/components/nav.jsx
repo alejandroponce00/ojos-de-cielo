@@ -63,25 +63,25 @@ const Navbar = () => {
                   className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
                   aria-current="page"
                 >
-                  Pagina Principal
+                  <p className="text-2xl font-bold ">Pagina Principal</p>
                 </a>
                 <a
                   href="/porcelana"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                  Porcelana Fria
+                 <p className="text-2xl font-bold ">Porcelana Fria</p> 
                 </a>
                 <a
                   href="/cuadros"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                 Cuadros
+                 <p className="text-2xl font-bold ">Cuadros</p>
                 </a>
                 <a
                   href="/contacto"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                  Contacto
+                 <p className="text-2xl font-bold ">Contacto</p>
                 </a>
               </div>
             </div>

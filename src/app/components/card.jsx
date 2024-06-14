@@ -3,11 +3,11 @@ import React from 'react';
 import Image from 'next/image'
 function Card(props){
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg m-2">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg mx-auto m-3">
       <Image className="w-full" src={props.direccion} alt="Sunset in the mountains" width={500} height={500}/>
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-        <p className="text-gray-700 text-base">
+      <div className="px-6 py-6">
+        <div className="font-bold text-xl mb-2 m-2">The Coldest Sunset</div>
+        <p className="text-slate-300 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
         </p>
       </div>
