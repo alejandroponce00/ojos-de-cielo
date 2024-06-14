@@ -1,8 +1,9 @@
 import React from 'react'
+import Carrusel from '../components/carrusel'
 
 function Cuadros() {
   return (
-    <div><h1>Cuadros</h1></div>
+    <Carrusel />
   )
 }
 
