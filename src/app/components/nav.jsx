@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="  bg-gradient-to-r from-stone-800 to bg-fuchsia-950 rounded-xl opacity-30">
+    <nav className="  bg-gradient-to-r from-stone-800 to bg-fuchsia-950 rounded-xl opacity-80">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <div className="relative flex h-16 items-center justify-between ">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -65,17 +65,12 @@ const Navbar = () => {
                 >
                   <p className="text-2xl font-bold ">Pagina Principal</p>
                 </a>
+               
                 <a
-                  href="/porcelana"
+                  href="/galeria"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                 <p className="text-2xl font-bold ">Porcelana Fria</p> 
-                </a>
-                <a
-                  href="/cuadros"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                >
-                 <p className="text-2xl font-bold ">Cuadros</p>
+                 <p className="text-2xl font-bold ">Galeria</p>
                 </a>
                 <a
                   href="/contacto"
@@ -135,10 +130,10 @@ const Navbar = () => {
         className={`sm:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}
         id="mobile-menu"
       >
-        <div className="space-y-1 px-2 pb-3 pt-2 text">
+        <div className="space-y-1 px-2 pb-3 pt-2">
           <a
             href="/"
-            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-black"
+            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
             aria-current="page"
           >
             Pagina Principal
