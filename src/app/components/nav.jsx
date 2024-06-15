@@ -54,7 +54,7 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex flex-1 items-center justify-center textsm:items-stretch sm:justify-start">
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
@@ -135,10 +135,10 @@ const Navbar = () => {
         className={`sm:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}
         id="mobile-menu"
       >
-        <div className="space-y-1 px-2 pb-3 pt-2">
+        <div className="space-y-1 px-2 pb-3 pt-2 text">
           <a
             href="/"
-            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-black"
             aria-current="page"
           >
             Pagina Principal

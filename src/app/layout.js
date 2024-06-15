@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav";
-import { lusitana, zeyada } from "@/ui/fonts";
+import { lusitana, roboto } from "@/ui/fonts";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${zeyada.className} antialiased `}><Nav />{children}
+      <body className={`${roboto.className} antialiased `}><Nav />{children}
       <footer className='py-10 flex justify-center items-center text-2xl content-end opacity-20 border-solid'>
         <p className={`${lusitana.className}`}>creado por Alejandro Ponce</p>
 
