@@ -10,7 +10,7 @@ export default function Home() {
         Ojos de Cielo Arte
       </h1>
       <div>
-        <p className={`${roboto.className}`}>¡Bienvenidos a mi mundo de arte y creatividad!
+        <p className={`${roboto.className} text-3xl`}>¡Bienvenidos a mi mundo de arte y creatividad!
 
 Soy una artista especializada en transformar materiales comunes en obras únicas y llenas de vida. A través de técnicas de modelado en porcelana fría y la pintura sobre diversos soportes, doy vida a piezas exclusivas que reflejan mi pasión y dedicación por el arte.<br/>
 
