@@ -1,12 +1,12 @@
 import Card from "./components/card";
 
-import { roboto } from "@/ui/fonts";
+import { caveat, roboto } from "@/ui/fonts";
 import {lusitana } from "@/ui/fonts";
 
 export default function Home() {
   return (
     <div>
-      <h1 className={`${lusitana.className} text-center text-7xl text-fuchsia-600 underline my-7`}>
+      <h1 className={`${caveat.className} text-center text-7xl text-pink-600 underline my-7`}>
         Ojos de Cielo Arte
       </h1>
       <div>
