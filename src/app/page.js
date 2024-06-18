@@ -1,13 +1,15 @@
+"use client"
 import Card from "./components/card";
 
 import { caveat, roboto } from "@/ui/fonts";
 import {lusitana } from "@/ui/fonts";
+import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   return (
     <div>
-      <h1 className={`${caveat.className} text-center text-7xl text-pink-600 underline my-7`}>
-        Ojos de Cielo Arte
+      <h1 className={`${caveat.className} text-center text-6xl text-pink-600 underline my-7  sm:text-7xl `}>
+      <Fade cascade damping={0.1}> Ojos de Cielo Arte</Fade>
       </h1>
       <div>
         <p className={`${roboto.className} text-3xl`}>¡Bienvenidos a mi mundo de arte y creatividad!
