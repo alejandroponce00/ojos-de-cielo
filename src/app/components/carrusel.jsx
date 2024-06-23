@@ -14,6 +14,7 @@ function Carrusel (props) {
   <CarouselContent>
    
     <CarouselItem><Card direccion="/imagenes/9.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/tasas.webp" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/tasa-colibri.webp" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/colibri.webp" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/2.jpg" width="500px" height="200" /></CarouselItem>
@@ -54,6 +55,24 @@ function Carrusel (props) {
     <CarouselItem><Card direccion="/imagenes/44.jpg" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/45.jpg" width="500px" height="200" /></CarouselItem>
     <CarouselItem><Card direccion="/imagenes/46.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/50.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/51.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/52.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/53.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/54.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/55.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/56.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/57.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/58.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/59.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/60.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/61.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/62.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/63.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/64.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/65.jpg" width="500px" height="200" /></CarouselItem>
+    <CarouselItem><Card direccion="/imagenes/66.jpg" width="500px" height="200" /></CarouselItem>
+
    
   
   </CarouselContent>
