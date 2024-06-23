@@ -39,12 +39,12 @@ Cada creación es el resultado de un proceso meticuloso y apasionado, diseñado 
           descripcion="Tazas únicas pintadas a mano con acrílico y decoradas con porcelana fría. ¡Añade arte a tu café!"
         />
         <Card
-          direccion="/imagenes/libro.webp"
+          direccion="/imagenes/60.jpg"
           width="500px"
           height="200"
-          titulo="Tapas de Libros"
+          titulo="Cajas de Fibrofacil"
           descripcion="
-Tapas de libros pintadas con acrílico y porcelana fría: arte único para embellecer tus lecturas."
+Cajas de Fibrofacil pintadas con acrílico y porcelana fría: arte único para guardar tus cosas."
         />
       </div>{" "}
       
